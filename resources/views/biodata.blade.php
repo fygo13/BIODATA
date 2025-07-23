@@ -36,9 +36,27 @@
     }
 
     .left {
-      background: url('https://i.imgur.com/NzFQWZb.jpeg') no-repeat center center/cover;
       flex: 1;
       min-height: 400px;
+      background: #00000033;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .left img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 4px solid #00ffc8;
+      object-fit: cover;
+      box-shadow: 0 0 15px #00ffc8aa;
+      transition: transform 0.3s ease;
+    }
+
+    .left img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #00ffc8ee;
     }
 
     .right {
@@ -81,6 +99,7 @@
       margin-top: 2rem;
       display: flex;
       gap: 1.2rem;
+      flex-wrap: wrap;
     }
 
     .socials a {
@@ -114,6 +133,7 @@
 
       .left {
         min-height: 250px;
+        padding: 1.5rem;
       }
 
       .right {
@@ -122,7 +142,6 @@
 
       .socials {
         justify-content: center;
-        flex-wrap: wrap;
       }
     }
 
@@ -136,20 +155,23 @@
 
   <div class="container">
     <!-- FOTO -->
-    <div class="left"></div>
+    <div class="left">
+      <img src="{{ asset('gambar') }}/diri.jpg" alt="Foto Profil">
+    </div>
 
     <!-- BIODATA -->
     <div class="right">
       <h1>Figo Adytia</h1>
 
       <div class="info">
-      <p><span class="label">Tempat, Tanggal Lahir:</span> Tanjung Pandan, 11 February 2008</p>
-      <p><span class="label">Alamat:</span> Jl. Dahlan RT. 12 RW. 05, Tanjung Pandan</p>
-      <p><span class="label">Jenis Kelamin:</span> Laki-laki</p>
-      <p><span class="label">Agama:</span> Islam</p>
-      <p><span class="label">Kewarganegaraan:</span> Indonesia</p>
-      <p><span class="label">Hobi:</span> Menonton, Membaca, Bermain Game, Bermain Voly, Mendengar Musik</p>
-      <p><span class="label">Cita-cita:</span> Pengusaha, Investor, dan Streamer</p>
+        <p><span class="label">Tempat, Tanggal Lahir:</span> Tanjung Pandan, 11 Februari 2008</p>
+        <p><span class="label">Alamat:</span> Jl. Dahlan RT. 12 RW. 05, Tanjung Pandan</p>
+        <p><span class="label">Jenis Kelamin:</span> Laki-laki</p>
+        <p><span class="label">Asal Sekolah:</span> SMKN 1 Tanjung Pandan</p>
+        <p><span class="label">Agama:</span> Islam</p>
+        <p><span class="label">Kewarganegaraan:</span> Indonesia</p>
+        <p><span class="label">Hobi:</span> Menonton, Membaca, Bermain Game, Bermain Voli, Mendengar Musik</p>
+        <p><span class="label">Cita-cita:</span> Pengusaha, Investor, dan Streamer</p>
       </div>
 
       <!-- TENTANG SAYA -->
@@ -160,11 +182,11 @@
 
       <!-- SOSIAL MEDIA -->
       <div class="socials">
-        <a href="https://instagram.com/figoadytia" target="_blank">
+        <a href="https://www.instagram.com/fygoady_14?igsh=bGNxY240cnRubHoz" target="_blank">
           <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
           Instagram
         </a>
-        <a href="https://github.com/figoadytia" target="_blank">
+        <a href="https://github.com/fygo13" target="_blank">
           <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
           GitHub
         </a>
