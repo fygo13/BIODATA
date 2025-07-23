@@ -122,7 +122,7 @@
         <img src="https://i.pinimg.com/736x/f4/1e/2d/f41e2dab621c1ee5253cef74e3642fcf.jpg" alt="Instagram" class="icon">
         Instagram
       </a>
-      <a href="https://github.com/figoadytia" target="_blank">
+      <a href="https://github.com/fygo13" target="_blank">
         <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" class="icon">
         GitHub
       </a>
